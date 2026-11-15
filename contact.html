@@ -29,6 +29,16 @@
             <p>Have an upcoming faculty event, student achievement, or important campus announcement? Reach out to our editorial desk below.</p>
         </section>
 
+        <section class="publishing-schedule" style="background-color: #eef5fc; border-left: 4px solid #0056b3; padding: 12px; margin-bottom: 20px;">
+            <h4 style="margin-top: 0;">Editorial Review &amp; Publishing Schedule</h4>
+            <ul style="margin-bottom: 0;">
+                <li><strong>Daily Digest Cutoff:</strong> Submit news before <strong>3:00 PM</strong> for same-day evening publication.</li>
+                <li><strong>Weekend Submissions:</strong> Articles sent after Friday 4:30 PM are reviewed on Monday morning.</li>
+                <li><strong>Verification Notice:</strong> Submissions without a valid Student/Staff ID will not be published.</li>
+            </ul>
+        </section>
+
+
         <!-- News submission and contact form -->
         <section class="form-section">
             <h3>Submit a News Story or Inquiry</h3>
@@ -109,13 +119,29 @@
             </ul>
         </section>
 
-        <!-- editorial office contact details -->
-        <section class="contact-info">
-            <h3>Editorial Desk Information</h3>
-            <p><strong>Location:</strong> Media &amp; Publications Unit, Main Administration Building</p>
-            <p><strong>Email:</strong> newsportal@ruh.ac.lk</p>
-            <p><strong>Phone:</strong> +94 77 111 2234</p>
-            <p><strong>Office Hours:</strong> Monday – Friday, 8:30 AM – 4:30 PM</p>
+         <section class="reporter-registration" style="margin-top: 25px;">
+            <h3>Join the University News Portal Team</h3>
+            <p>Interested in campus journalism, photography, or graphic design? Register as a student contributor.</p>
+            <form action="#" method="post">
+                <label for="reg-name">Full Name:</label><br>
+                <input type="text" id="reg-name" name="reg-name" placeholder="e.g., S. Jayarathne" required><br><br>
+
+                <label for="reg-sc">Student Registration Number:</label><br>
+                <input type="text" id="reg-sc" name="reg-sc" placeholder="e.g., SC/2025/XXXXX" required><br><br>
+
+                <label>Preferred Role(s):</label><br>
+                <input type="checkbox" id="role-writer" name="roles[]" value="writer">
+                <label for="role-writer">News Writer / Reporter</label><br>
+                <input type="checkbox" id="role-photo" name="roles[]" value="photographer">
+                <label for="role-photo">Event Photographer</label><br>
+                <input type="checkbox" id="role-design" name="roles[]" value="designer">
+                <label for="role-design">Graphic Designer</label><br><br>
+
+                <label for="portfolio">Sample Work / Portfolio Link (Optional):</label><br>
+                <input type="url" id="portfolio" name="portfolio" placeholder="https://..."><br><br>
+
+                <button type="submit">Apply to Join</button>
+            </form>
         </section>
 
         <!--Faculty student reporters-->
@@ -212,6 +238,30 @@
                 <p>Send the article title and correction details to <em>newsportal@university.ac.lk</em> with the subject line "Correction Request".</p>
             </details>
         </section>
+
+        <!-- editorial office contact details -->
+        <section class="contact-info">
+            <h3>Editorial Desk Information</h3>
+            <p><strong>Location:</strong> Media &amp; Publications Unit, Main Administration Building</p>
+            <p><strong>Email:</strong> newsportal@ruh.ac.lk</p>
+            <p><strong>Phone:</strong> +94 77 111 2234</p>
+            <p><strong>Office Hours:</strong> Monday – Friday, 8:30 AM – 4:30 PM</p>
+        </section>
+
+         <div style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 10px; margin: 15px 0;">
+                <strong>Urgent / Breaking Campus News Hotline:</strong><br>
+                For immediate academic or emergency announcements, call <a href="tel:+94412222681">+94 41 222 2681</a> (Ext. 405).
+            </div>
+
+            <h4>Find Our Editorial Office</h4>
+            <iframe 
+                src="https://www.google.com/maps?q=University+of+Ruhuna,+Matara,+Sri+Lanka&output=embed" 
+                width="100%" 
+                height="250" 
+                style="border: 1px solid #ccc; border-radius: 6px;" 
+                loading="lazy">
+            </iframe>
+
     </main>
 
     <!--Social media info-->
@@ -238,6 +288,17 @@
                     </a>
                 </li>
             </ul>
+
+             <footer>
+        <p>
+            <a href="index.html">Home</a> | 
+            <a href="about.html">About</a> | 
+            <a href="services.html">Latest News</a> | 
+            <a href="contact.html">Contact &amp; Submit</a> | 
+            <a href="#top">Back to Top &uarr;</a>
+        </p>
+        <p>&copy; 2026 University News Portal | All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
