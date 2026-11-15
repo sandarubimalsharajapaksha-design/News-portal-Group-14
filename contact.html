@@ -4,28 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact & Submit News - University News Portal</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
     <!-- Navigation menu -->
-    <header>
-        <h1>Contact us</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Latest News</a></li>
-                <li><a href="contact.html" class="active">Contact &amp; Submit</a></li>
-            </ul>
-        </nav>
+     
+    <header id="site-header">
+       <div class="header-content">
+    <div class="site-title">
+      <img src="images/home_logo.png" alt="University logo">
+      <div>
+        <h1>University of Ruhuna</h1>
+        <p>News Portal</p>
+      </div>
+    </div>
+
+    <nav class="navigation">
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html" class="active">Contact &amp; Submit</a>
+    </nav>
+  </div>
+        <div class="hero-banner">
+            <h1>Contact Us</h1>
+            <p>University News Portal - Editorial Desk &amp; Student Submissions</p>
+        </div>
     </header>
 
     <!-- Main content -->
     <main class="container">
         <section class="page-intro">
-            <h2>Contact the Editorial Team &amp; Submit News</h2>
+            <h2 style="color: #f7c600;">Contact the Editorial Team &amp; Submit News</h2>
             <p>Have an upcoming faculty event, student achievement, or important campus announcement? Reach out to our editorial desk below.</p>
         </section>
 
@@ -62,7 +75,7 @@
                 <label for="message">News Details / Message:</label><br>
                 <textarea id="message" name="message" rows="5" placeholder="Write your announcement details or message here..." required></textarea><br><br>
 
-                <fieldset style="border: 1px solid #ccc; padding: 12px; margin-bottom: 15px;">
+                <fieldset style="border: 1px solid #ffffff; padding: 12px; margin-bottom: 15px;">
                     <legend><strong>Attach Event Photos (Optional - Up to 5 Photos)</strong></legend>
                     
                     <label for="photo1">Photo 1 (Main Cover):</label><br>
@@ -267,38 +280,59 @@
     <!--Social media info-->
     <h4>Follow &amp; Connect With Us</h4>
             <ul class="social-links" style="list-style: none; padding: 0;">
-                <li style="margin-bottom: 8px;">
+                <li>
                     <a href="https://facebook.com" target="_blank" style="text-decoration: none; color: #1877F2;">
-                        <i class="fa-brands fa-facebook fa-lg"></i> <strong>Facebook:</strong> @Ruh.news.portal
+                        <i class="fa-brands fa-facebook fa-lg"></i>
+                        <span><strong>Facebook:</strong> @Ruh.news.portal</span>
                     </a>
                 </li>
-                <li style="margin-bottom: 8px;">
+                <li>
                     <a href="https://instagram.com" target="_blank" style="text-decoration: none; color: #E4405F;">
-                        <i class="fa-brands fa-instagram fa-lg"></i> <strong>Instagram:</strong> @ruh_news_official
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                        <span><strong>Instagram:</strong> @ruh_news_official</span>
                     </a>
                 </li>
-                <li style="margin-bottom: 8px;">
+                <li>
                     <a href="https://youtube.com" target="_blank" style="text-decoration: none; color: #FF0000;">
-                        <i class="fa-brands fa-youtube fa-lg"></i> <strong>YouTube:</strong> RUH News Channel
+                        <i class="fa-brands fa-youtube fa-lg"></i>
+                        <span><strong>YouTube:</strong> RUH News Channel</span>
                     </a>
                 </li>
-                <li style="margin-bottom: 8px;">
+                <li>
                     <a href="https://wa.me/94771234567" target="_blank" style="text-decoration: none; color: #25D366;">
-                        <i class="fa-brands fa-whatsapp fa-lg"></i> <strong>WhatsApp News Desk:</strong> +94 77 111 2233
+                        <i class="fa-brands fa-whatsapp fa-lg"></i>
+                        <span><strong>WhatsApp News Desk:</strong> +94 77 111 2233</span>
                     </a>
                 </li>
             </ul>
 
-             <footer>
-        <p>
-            <a href="index.html">Home</a> | 
-            <a href="about.html">About</a> | 
-            <a href="services.html">Latest News</a> | 
-            <a href="contact.html">Contact &amp; Submit</a> | 
-            <a href="#top">Back to Top &uarr;</a>
-        </p>
-        <p>&copy; 2026 RUH News Portal | All Rights Reserved.</p>
-    </footer>
+<footer class="site-footer">
+  <div class="footer-content">
+    <div>
+      <h2>University of Ruhuna</h2>
+      <p>News, achievements and events from across the university.</p>
+    </div>
+
+    <div>
+      <h3>Quick Links</h3>
+      <a href="#">Home</a>
+      <a href="#">News</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact &amp; Submit</a>
+    </div>
+
+    <div>
+      <h3>Address</h3>
+      <p>Wellamadama, Matara, Sri Lanka</p>
+      <p>University of Ruhuna</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 University of Ruhuna News Portal</p>
+  </div>
+</footer>
 
 </body>
 </html>
