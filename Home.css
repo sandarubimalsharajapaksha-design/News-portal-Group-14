@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.site-header {
+  min-height: 300px;
+  padding: 24px 6%;
+  color: white;
+  background:
+    linear-gradient(rgba(16, 20, 24, 0.75), rgba(16, 20, 24, 0.75)),
+    url("images/header-photo.jpg.jpg") center / cover no-repeat;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.site-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.site-title img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.site-title h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.site-title p {
+  margin: 4px 0 0;
+  color: #e0e0e0;
+}
+
+.navigation {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.navigation a {
+  padding: 9px 12px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation a:nth-child(2) {
+  background: #f7c600;
+  color: #101418;
+}
+
+.header-heading {
+  padding: 45px 0 20px;
+}
+
+.header-heading h2 {
+  margin: 0 0 10px;
+  font-size: 36px;
+}
+
+.header-heading p {
+  margin: 0;
+  color: #eeeeee;
+  font-size: 17px;
+}
+
+.site-footer {
+  padding: 35px 6% 0;
+  color: white;
+  background: #101418;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.5fr;
+  gap: 30px;
+  padding-bottom: 25px;
+}
+
+.site-footer h2,
+.site-footer h3 {
+  margin-top: 0;
+  color: #f7c600;
+}
+
+.site-footer p {
+  color: #d2d5d8;
+  line-height: 1.6;
+}
+
+.footer-content a {
+  display: block;
+  margin-bottom: 9px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  padding: 14px 0;
+  border-top: 1px solid #454b50;
+  color: #d2d5d8;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+@media (max-width: 650px) {
+  .header-content {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .header-heading h2 {
+    font-size: 28px;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+url("images/header%20photo.jpg")
