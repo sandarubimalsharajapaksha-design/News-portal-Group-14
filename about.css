@@ -219,7 +219,7 @@ img {
 
 .card.vision {
   color: var(--white);
-  background: var(--navy);
+  background: #FBF5F6;
   border-color: var(--navy);
 }
 
@@ -329,7 +329,7 @@ img {
 
 .photo img {
   width: 100%;
-  height: 390px;
+  height: 450px;
   object-fit: cover;
   border-radius: 13px;
 }
