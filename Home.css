@@ -17,7 +17,71 @@ body {
     linear-gradient(rgba(16, 20, 24, 0.75), rgba(16, 20, 24, 0.75)),
     url("images/header-photo.jpg.jpg") center / cover no-repeat;
 }
+/* ===== NEWS SECTION - අලුතින් එකතු කරන ටික විතරයි ===== */
+/* ===== RECENT NEWS - LOKU IMAGE ===== */
+.container {
+  padding: 30px 6%;
+}
+.section-title {
+  font-size: 28px;
+  color: #101418;
+  margin-bottom: 20px;
+}
+.card-large {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+  margin-bottom: 30px;
+}
+.card-large img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+}
+.card-large-body {
+  padding: 22px 25px;
+}
+.card-large-body h3 {
+  font-size: 24px;
+  margin: 12px 0 10px;
+  color: #101418;
+}
+.card-large-body p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 12px;
+}
+.card-large-body a {
+  color: #101418;
+  font-weight: bold;
+  text-decoration: none;
+}
+.tag {
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+.tag.achievement { background: #7b1fa2; }
+.tag.event { background: #e65100; }
+.date {
+  font-size: 13px;
+  color: #888;
+  margin-left: 8px;
+}
 
+@media (max-width: 650px) {
+  .card-large img {
+    height: 250px;
+  }
+  .card-large-body h3 {
+    font-size: 20px;
+  }
+}
 .header-content {
   display: flex;
   justify-content: space-between;
