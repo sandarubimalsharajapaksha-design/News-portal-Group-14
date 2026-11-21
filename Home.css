@@ -17,8 +17,7 @@ body {
     linear-gradient(rgba(16, 20, 24, 0.75), rgba(16, 20, 24, 0.75)),
     url("images/header-photo.jpg.jpg") center / cover no-repeat;
 }
-/* ===== NEWS SECTION - අලුතින් එකතු කරන ටික විතරයි ===== */
-/* ===== RECENT NEWS - LOKU IMAGE ===== */
+
 .container {
   padding: 30px 6%;
 }
@@ -203,4 +202,3 @@ body {
     gap: 15px;
   }
 }
-url("images/header%20photo.jpg")
