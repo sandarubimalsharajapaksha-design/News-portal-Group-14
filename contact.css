@@ -18,7 +18,7 @@ body {
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--bg);
+    background-color: whitesmoke;
     color: var(--text-dark);
     line-height: 1.6;
 }
@@ -152,11 +152,18 @@ h3 {
 }
 
 /* --- Editorial --- */
-.publishing-schedule {
-    background-color: #ffffff !important;
-    border-left: 5px solid var(--primary) !important;
+.publishing-schedule,
+.form-section,
+.newsletter-guidelines,
+.reporter-registration,
+.reporters-faq,
+.correspondent-card,
+.contact-info {
+    background-color: #ffffff ;
+    border: 2px solid #656667;
+    border-left: 5px solid var(--primary) ;
     border-radius: 14px;
-    padding: 22px 26px !important;
+    padding: 22px 26px ;
 }
 
 .publishing-schedule h4 {
@@ -221,9 +228,9 @@ textarea:focus {
 
 /* Photo Upload Fieldset */
 fieldset {
-    border: 1.5px dashed #c7c2e2 !important;
+    border: 1.5px dashed #c7c2e2;
     border-radius: 16px;
-    padding: 18px 22px !important;
+    padding: 18px 22px;
     background-color: #faf9fe;
 }
 
