@@ -125,9 +125,10 @@ body {
   text-decoration: none;
 }
 
-.navigation a:nth-child(2) {
-  background: #f7c600;
-  color: #101418;
+.navigation a.active {
+    background: #f7c600;
+    color: #101418;
+    font-weight: 600;
 }
 
 
