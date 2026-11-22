@@ -18,7 +18,7 @@ body {
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--bg);
+    background-color: whitesmoke;
     color: var(--text-dark);
     line-height: 1.6;
 }
@@ -26,94 +26,85 @@ body {
 
 
 /* --- Top Navbar --- */
-header {
-    background: linear-gradient(var(--hero-overlay), var(--hero-overlay)),
-                url('D:/CSC1153-Git/News-portal-Group-14/images/header-photo.jpg.jpg') center/cover no-repeat;
-    color: #ffffff;
-    text-align: center;
-    padding-bottom: 75px;
-    position: relative;
-}
-
-/* White Top Navigation Bar */
 .site-header {
-  min-height: 300px;
-  padding: 24px 6%;
-  color: white;
-  background:
-    linear-gradient(rgba(16, 20, 24, 0.75), rgba(16, 20, 24, 0.75)),
-    url("images/header-photo.jpg.jpg") center / cover no-repeat;
+    min-height: 300px;
+    padding: 24px 6%;
+    color: #ffffff;
+    text-align: left;
+    background:
+        linear-gradient(rgba(16, 20, 24, 0.75), rgba(16, 20, 24, 0.75)),
+        url("images/header-photo.jpg.jpg") center / cover no-repeat;
 }
 
 .header-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  padding-bottom: 18px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
 }
 
 .site-title {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-align: left;
 }
 
 .site-title img {
-  width: 80px;
-  height: 80px;
-  object-fit: contain;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
 }
 
 .site-title h1 {
-  margin: 0;
-  font-size: 20px;
+    margin: 0;
+    font-size: 20px;
 }
 
 .site-title p {
-  margin: 4px 0 0;
-  color: #e0e0e0;
+    margin: 4px 0 0;
+    color: #e0e0e0;
 }
 
 .navigation {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .navigation a {
-  padding: 9px 12px;
-  border-radius: 4px;
-  color: white;
-  text-decoration: none;
+    padding: 9px 12px;
+    border-radius: 4px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
-.navigation a:nth-child(2) {
-  background: #f7c600;
-  color: #101418;
+.navigation a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.navigation a.active {
+    background: #f7c600;
+    color: #101418;
+    font-weight: 600;
 }
 
 .header-heading {
-  padding: 45px 0 20px;
+    padding: 45px 0 20px;
+    text-align: left;
 }
 
 .header-heading h2 {
-  margin: 0 0 10px;
-  font-size: 36px;
+    margin: 0 0 10px;
+    font-size: 36px;
 }
 
 .header-heading p {
-  margin: 0;
-  color: #eeeeee;
-  font-size: 17px;
-}
-/* Contact US */
-header h1 {
-    font-size: 42px;
-    font-weight: 700;
     margin: 0;
-    letter-spacing: -0.5px;
+    color: #eeeeee;
+    font-size: 17px;
 }
 
 /* --- Main Content Container --- */
@@ -161,11 +152,18 @@ h3 {
 }
 
 /* --- Editorial --- */
-.publishing-schedule {
-    background-color: #ffffff !important;
-    border-left: 5px solid var(--primary) !important;
+.publishing-schedule,
+.form-section,
+.newsletter-guidelines,
+.reporter-registration,
+.reporters-faq,
+.correspondent-card,
+.contact-info {
+    background-color: #ffffff ;
+    border: 2px solid #656667;
+    border-left: 5px solid var(--primary) ;
     border-radius: 14px;
-    padding: 22px 26px !important;
+    padding: 22px 26px ;
 }
 
 .publishing-schedule h4 {
@@ -230,9 +228,9 @@ textarea:focus {
 
 /* Photo Upload Fieldset */
 fieldset {
-    border: 1.5px dashed #c7c2e2 !important;
+    border: 1.5px dashed #c7c2e2;
     border-radius: 16px;
-    padding: 18px 22px !important;
+    padding: 18px 22px;
     background-color: #faf9fe;
 }
 
